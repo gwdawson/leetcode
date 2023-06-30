@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "ts-node playground.ts",
+    "start": "./scripts/start.sh",
     "pre-commit": "yarn lint-staged"
   },
   "lint-staged": {
