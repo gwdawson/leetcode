@@ -8,8 +8,8 @@
   },
   "lint-staged": {
     "*.ts": [
-      "eslint --fix .",
-      "prettier --write ."
+      "eslint --fix **/*.ts",
+      "prettier --write  **/*.ts"
     ]
   },
   "dependencies": {
