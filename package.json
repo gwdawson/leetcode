@@ -1,0 +1,25 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "ts-node playground.ts",
+    "pre-commit": "yarn lint-staged"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix .",
+      "prettier --write ."
+    ]
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.43.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
