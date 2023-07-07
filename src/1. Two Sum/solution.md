@@ -47,7 +47,7 @@ Time complexity: _`O(n)`_.\
 We traverse the list containing _`n`_ elements exactly twice. Since the hash table reduces the lookup time to _`O(1)`_, the overall time complexity is _`O(n)`_.
 
 Space complexity: _`O(n)`_.\
-The extra space required depends on the number of items stored in the hash table, which stores exactly nnn elements.
+The extra space required depends on the number of items stored in the hash table, which stores exactly _`n`_ elements.
 
 # Approach 3: One-pass Hash Table
 
@@ -71,7 +71,7 @@ class Solution:
 **Complexity Analysis**
 
 Time complexity: _`O(n)`_.\
-We traverse the list containing nnn elements only once. Each lookup in the table costs only _`O(1)`_ time.
+We traverse the list containing _`n`_ elements only once. Each lookup in the table costs only _`O(1)`_ time.
 
 Space complexity: _`O(n)`_.\
-The extra space required depends on the number of items stored in the hash table, which stores at most nnn elements.
+The extra space required depends on the number of items stored in the hash table, which stores at most _`n`_ elements.
