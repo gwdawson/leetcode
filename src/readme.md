@@ -1,12 +1,8 @@
-## Leetcode Problem Roadmap
-
-Welcome to the Leetcode Problem Roadmap! This readme provides an overview of the categories and subcategories of problems that I am following in my Leetcode journey.
-
-Refer to the screenshot for the actual roadmap of problems I am following.
+# Leetcode Problem Roadmap
 
 ![Leetcode Roadmap](./assets/roadmap.png)
 
-### Arrays & Hashing
+## Arrays & Hashing
 
 | Status  | No.  | Problem                      | Code                                               |
 | ------- | ---- | ---------------------------- | -------------------------------------------------- |
