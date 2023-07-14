@@ -28,9 +28,9 @@ Output: [0,1]
 
 **Constraints:**
 
-- [x] `2 <= nums.length <= 104`
-- [x] `-109 <= nums[i] <= 109`
-- [x] `-109 <= target <= 109`
+- [x] `2 <= nums.length <= 10^4`
+- [x] `-10^9 <= nums[i] <= 10^9`
+- [x] `-10^9 <= target <= 10^9`
 - [x] **Only one valid answer exists.**
 
 **Follow-up:** Can you come up with an algorithm that is less than O(n2) time complexity?
